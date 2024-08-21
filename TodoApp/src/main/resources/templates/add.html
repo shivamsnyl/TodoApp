@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Add Task Form:</h1>
+	<form action="/save" method="post">
+		
+		
+		<table align="center" width=50% bgcolor=Lightblue> 
+			
+			<caption>Enter Title</caption>
+			<tr>
+				<th>Enter Title</th>
+				<td><input type="text" name="title" required="required"></td>
+			</tr>
+			
+			<tr>
+				<th>Description</th>
+				<td><input type="text" name="description" required="required"></td>
+			</tr>
+			
+			<tr>
+				<th>Status</th>
+				<td><input type="text" name="status" required="required"></td>
+			</tr>
+			
+			<tr>
+				<td><input type="submit" value="Submit"></td>
+			</tr>
+		
+		</table>
+	<br>
+	<a href="/getAllTask">Return to home</a>
+	
+	</form>
+</body>
+</html>
